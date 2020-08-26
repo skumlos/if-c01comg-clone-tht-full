@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name ninigi-scart-ra)(type KiCad)(uri "$(KIPRJMOD)/ninigi-scart-ra.pretty")(options "")(descr ""))
+  (lib (name rcj-41x)(type KiCad)(uri "$(KIPRJMOD)/rcj-41x.pretty")(options "")(descr ""))
+  (lib (name LC2259)(type KiCad)(uri "$(KIPRJMOD)/LC2259.pretty")(options "")(descr ""))
+  (lib (name bnc-tht)(type KiCad)(uri "$(KIPRJMOD)/bnc-tht.pretty")(options "")(descr ""))
+)
