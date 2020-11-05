@@ -3,7 +3,7 @@
   (general
     (links 193)
     (no_connects 0)
-    (area 49.749999 30.324999 227.900001 159.975001)
+    (area 28.280999 30.324999 236.600001 159.975001)
     (thickness 1.6)
     (drawings 58)
     (tracks 321)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (user_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -5185,7 +5185,7 @@
   (gr_line (start 227.825 159.9) (end 49.825 159.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 227.825 30.4) (end 49.825 30.4) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 227.825 159.9) (end 227.825 30.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "D101-D110: BAT46-TR\nD201: 1N5242B-TR (12V Zener)\n\nAll transistors (Q101, Q102, ...): BC550C\n\nC101,102,103: 47uF/25V E-cap\nC104,105,120,122: 10uF/25V E-cap\nC115,207: 100 uF/16V E-Cap\nC114,116,117,118,119,206: 100 nF/25V MLCC\nC203: 1 uF/50V E-Cap\nC121: 1 uF/25V MLCC\nC201,202,205: 180 pF MLCC\nC204: 39 pF MLCC\n\nR101,115,129,143,152: 75 Ohm\nR104,114,118,128,132,142,146: 100 Ohm\nR113,127,141: 390 Ohm\nR105,119,133,203: 56 kOhm\nR106,120,134,147,148,156,157: 33 kOhm\nR107,121,135: 1.5 kOhm\nR202: 1 kOhm\nR204: 68 kOhm\nR149,158,205: 2.7 kOhm\nR3: 20 kOhm\nR1,2: 470 Ohm\nAll resistors: 1% tolerance\n\nU1: LM2940(C)T-12.0\n\nSW1: LC2259EENP\n\nSCART: Ninigi right angled\n(or similar)\n\nBNC: Adam Tech 75 Ohm Right angled\n(or similar)" (at 157.1 94.05) (layer F.SilkS)
+  (gr_text "D101-D110: BAT46-TR\nD201: 1N5242B-TR (12V Zener)\n\nAll transistors (Q101, Q102, ...): BC550C\n\nC101,102,103: 47uF/25V E-cap\nC104,105,120,122: 10uF/25V E-cap\nC115,207: 100 uF/16V E-Cap\nC114,116,117,118,119,206: 100 nF/25V MLCC\nC203: 1 uF/50V E-Cap\nC121: 1 uF/25V MLCC\nC201,202,205: 180 pF MLCC\nC204: 39 pF MLCC\n\nR101,115,129,143,152: 75 Ohm\nR104,114,118,128,132,142,146,155: 100 Ohm\nR113,127,141: 390 Ohm\nR105,119,133,203: 56 kOhm\nR106,120,134,147,148,156,157: 33 kOhm\nR107,121,135: 1.5 kOhm\nR202: 1 kOhm\nR204: 68 kOhm\nR149,158,205: 2.7 kOhm\nR3: 20 kOhm\nR1,2: 470 Ohm\nAll resistors: 1% tolerance\n\nU1: LM2940(C)T-12.0\n\nSW1: LC2259EENP\n\nSCART: Ninigi right angled\n(or similar)\n\nBNC: Adam Tech 75 Ohm Right angled\n(or similar)" (at 157.1 94.05) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "Do NOT mount\nthis section\nwhen using SCART" (at 80.45 123.125 90) (layer F.SilkS)
